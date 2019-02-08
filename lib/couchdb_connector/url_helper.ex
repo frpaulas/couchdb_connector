@@ -1,5 +1,5 @@
 defmodule Couchdb.Connector.UrlHelper do
-  @default_db_properties %{user: nil, password: nil}
+  @default_db_properties %{user: nil, password: nil, port: nil}
 
   @moduledoc """
   Provides URL helper functions that compose URLs based on given database
